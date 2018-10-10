@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="HOME"
+            android:background="@color/colorPrimary">
+            <menu>
+
+                <item
+                    android:id="@+id/nav_regular"
+                    android:title="Regular" />
+                <item
+                    android:id="@+id/nav_panchanga"
+                    android:title="Panchanga" />
+
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="REPORTS">
+        <menu>
+            <item
+                android:id="@+id/nav_quick"
+
+                android:title="Quick" />
+            <item
+                android:id="@+id/nav_query"
+                android:title="Query" />
+        </menu>
+    </item>
+
+    <item android:title="MANAGEMENT">
+        <menu>
+            <item
+                android:id="@+id/nav_expenditure"
+
+                android:title="Expenditure" />
+            <item
+                android:id="@+id/nav_poojalist"
+                android:title="Pooja List" />
+            <item
+                android:id="@+id/nav_settings"
+                android:title="Settings"
+                />
+        </menu>
+    </item>
+
+</menu>
